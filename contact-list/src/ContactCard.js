@@ -5,7 +5,7 @@ const ContactCard = props => {
   // useState Hook (true) makes sure it's starts in the true state.
   // onClick event changing state of the showAge. 
   
-  const [showAge, setShowAge] = useState(true);
+  const [showAge, setShowAge] = useState(false);
 
   return (
     <div className="contact-card">
